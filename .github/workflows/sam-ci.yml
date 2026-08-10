@@ -1,0 +1,40 @@
+name: AWS SAM CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate-build:
+    name: Validate and Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python 3.14
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+
+      - name: Set up AWS SAM CLI
+        uses: aws-actions/setup-sam@v2
+
+      - name: Show tool versions
+        run: |
+          python --version
+          sam --version
+
+      - name: Check Python source
+        run: python -m compileall -q src
+
+      - name: Build SAM application
+        run: sam build --template-file template.yaml

@@ -1,0 +1,189 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  AWSERTS Serverless Event Registration System
+  SAM development stack.
+
+Globals:
+  Function:
+    Runtime: python3.14
+    Handler: lambda_function.lambda_handler
+    MemorySize: 128
+    Timeout: 3
+
+Resources:
+
+  # --------------------------------------------------
+  # DynamoDB Tables
+  # --------------------------------------------------
+
+  EventsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: event_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: event_id
+          KeyType: HASH
+
+  RegistrationsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: event_id
+          AttributeType: S
+        - AttributeName: email
+          AttributeType: S
+      KeySchema:
+        - AttributeName: event_id
+          KeyType: HASH
+        - AttributeName: email
+          KeyType: RANGE
+
+  # --------------------------------------------------
+  # API Gateway REST API
+  # --------------------------------------------------
+
+  EventRegistrationApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: AWSERTS-SAM-EventRegistrationAPI
+      StageName: dev
+      Cors:
+        AllowMethods: "'GET,POST,OPTIONS'"
+        AllowHeaders: "'Content-Type'"
+        AllowOrigin: "'*'"
+
+  # --------------------------------------------------
+  # Lambda: Create Event
+  # --------------------------------------------------
+
+  CreateEventFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: AWSERTS-SAM-CreateEventFunction
+      CodeUri: src/create-event/
+      Timeout: 15
+      Environment:
+        Variables:
+          EVENTS_TABLE: !Ref EventsTable
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:PutItem
+              Resource: !GetAtt EventsTable.Arn
+      Events:
+        CreateEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref EventRegistrationApi
+            Path: /events
+            Method: POST
+
+  # --------------------------------------------------
+  # Lambda: List Events
+  # --------------------------------------------------
+
+  ListEventsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: AWSERTS-SAM-ListEventsFunction
+      CodeUri: src/list-events/
+      Environment:
+        Variables:
+          EVENTS_TABLE: !Ref EventsTable
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:Scan
+              Resource: !GetAtt EventsTable.Arn
+      Events:
+        ListEvents:
+          Type: Api
+          Properties:
+            RestApiId: !Ref EventRegistrationApi
+            Path: /events
+            Method: GET
+
+  # --------------------------------------------------
+  # Lambda: List Registrations
+  # --------------------------------------------------
+
+  ListRegistrationsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: AWSERTS-SAM-ListRegistrationsFunction
+      CodeUri: src/list-registrations/
+      Timeout: 3
+      Environment:
+        Variables:
+          REGISTRATIONS_TABLE: !Ref RegistrationsTable
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:Query
+              Resource: !GetAtt RegistrationsTable.Arn
+      Events:
+        ListRegistrations:
+          Type: Api
+          Properties:
+            RestApiId: !Ref EventRegistrationApi
+            Path: /events/{event_id}/registrations
+            Method: GET
+  # --------------------------------------------------
+  # Lambda: Register for Event
+  # --------------------------------------------------
+
+  RegisterEventFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: AWSERTS-SAM-RegisterEventFunction
+      CodeUri: src/register-event/
+      Timeout: 15
+      Environment:
+        Variables:
+          EVENTS_TABLE: !Ref EventsTable
+          REGISTRATIONS_TABLE: !Ref RegistrationsTable
+      Policies:
+        - Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - dynamodb:GetItem
+                - dynamodb:UpdateItem
+              Resource: !GetAtt EventsTable.Arn
+
+            - Effect: Allow
+              Action:
+                - dynamodb:PutItem
+              Resource: !GetAtt RegistrationsTable.Arn
+      Events:
+        RegisterEvent:
+          Type: Api
+          Properties:
+            RestApiId: !Ref EventRegistrationApi
+            Path: /events/{event_id}/registrations
+            Method: POST
+
+Outputs:
+
+  ApiUrl:
+    Description: SAM development REST API base URL
+    Value: !Sub "https://${EventRegistrationApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}/dev"
+
+  EventsTableName:
+    Description: SAM Events DynamoDB table
+    Value: !Ref EventsTable
+
+  RegistrationsTableName:
+    Description: SAM Registrations DynamoDB table
+    Value: !Ref RegistrationsTable
