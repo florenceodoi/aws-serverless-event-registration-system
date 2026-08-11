@@ -1,0 +1,244 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 691.1383 465.6978 702.1383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://d1cm5g5okmu6ix.cloudfront.net)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 668.1383 338.6568 679.1383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 584.5008 253.1383 594.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 573.5008 465.6978 583.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/.github/workflows/sam-ci.yml)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 550.5008 303.6453 560.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/actions/runs/31411286194)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 539.5008 283.8318 549.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/tree/main/src)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 516.5008 286.2033 526.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/src/create-event/lambda_function.py)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 505.5008 242.2753 515.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/src/list-events/lambda_function.py)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 494.5008 234.2428 504.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/src/list-registrations/lambda_function.py)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 483.5008 257.8558 493.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/src/register-event/lambda_function.py)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 472.5008 248.4123 482.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/template.yaml)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 449.5008 390.1328 459.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://console.aws.amazon.com/cloudwatch/home?#alarmsV2:)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 415.5008 411.3573 425.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/README.md)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 370.5008 243.2018 380.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+18 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/README.md)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 359.5008 537.9648 369.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+19 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/README.md)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 348.5008 212.5083 358.7008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://d1cm5g5okmu6ix.cloudfront.net)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 233.6383 338.6568 244.6383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/template.yaml)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 212.6383 535.1428 223.6383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/blob/main/template.yaml)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 201.6383 217.7018 212.6383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/actions/runs/31411286194)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 180.6383 535.1513 191.6383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/florenceodoi/aws-serverless-event-registration-system/actions/runs/31411286194)
+>> /Border [ 0 0 0 ] /Rect [ 192.6693 169.6383 225.7513 180.6383 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 
+  14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 
+  24 0 R ] /Contents 29 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 28 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+26 0 obj
+<<
+/PageMode /UseNone /Pages 28 0 R /Type /Catalog
+>>
+endobj
+27 0 obj
+<<
+/Author (OpenAI) /CreationDate (D:20260811000803+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260811000803+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (AWS Capstone Final Deliverables Links) /Trapped /False
+>>
+endobj
+28 0 obj
+<<
+/Count 1 /Kids [ 25 0 R ] /Type /Pages
+>>
+endobj
+29 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2675
+>>
+stream
+Gb!#^=`<%a&:XAWR&@e1U(qlD0$1gV[aV*m>/sY^'IZdS'I>KrU%4"TTKg/s]0)C>.++?,+GV7`3AWbgm5G8E_8&97rZ<BcDrra%97\jcYCKfpK)%9/c-QAK,HbTUdfJI>S2iJ=cgY2WK%ob?L^al-.G0k%biB1+:0cO-4\3As/Ac5j;@Ib^[1Z!nE*F'qU)l6u+BGV[B%5rajD48cXUT-40LiS4:_]).q<ZQN>km'JbgI%LE:kMN9=PG_;,QJ)).b7E"7mqN&'HA,_qeg"L<6nYrs\L#6FAEfjVk)*-iV+mLHr6P5+k9s-_/m7LRZ4:E!J[\[l'QX=@16M+I#gMD4!NfPM;\C`Jk_O&&bF&CFZe+MjZI:]77,uRlpQf"sr^.D3XlO>_[7j--Z<V*#?'-lR9G")G:O58Xd9G?u++s'4ZnHEss"1d0h@:M0MiT,<cNU+0B.0K=F1I\bL\UMbTSel;9it^YkG4O&f,fKPe,QUB"c."'B+p'\+CaM?9Dd2DjY;o[VMDO)T`@BXa]&CtQ4Q=p$J4QH+i,DSjco&6?![LrTZ-&`t^_QAM4d51Mc*na7:mXI_/B'ah.e9C`e%p'`fj3X@NQ)D8lkI>AiXK^T(&4=Pdf!TuCePkb&!gpLIN_="!ppBAP"$N"/&lJq:)TNDHGF,/Q)=.uiDPdh&Y[@6QZnqUt2&D:Ya<+bsd_7arjCT]?k</>$o\-24(D]qo5^eob5P"Pl#6'9C!Rk$?Nm4b"n0mcibgZ#j0F<-X9C-dG&RBGO#&(;ZFQ<?';+,WW%k'/<E8/@CcS:aD9SV'N(P^o@:R%MI;f16@l&4q&lZi"?oV3[*r`Atf?9,])Lg<T,MMFW/Z+O7"K.aQP+Ug^fD-U6V*cY(0nq1:U!M017iODMN3-'*B#*aGkR;(<%@/fVL)7^oI'YYtbS5^+6`1tRjf]'K,[?)M9^XSH*/q_5t?gh&.=m9[T@EO=?\q?B%2Pel95(q8HG<Kn^[lNq/77LemV(*-2`b[il'\)f'L`7E$J^DpEe>2omY0mgr.4h9(;h%K.7P=mX8+->e+>4/Ubjr8Zf1XF-$$kL3rZ[`hd_o2Hcq$8W)AAU"I;K+!WAa80>GV"$lb`cQ!JHqujR,,E-+BslYW(H_>AOD6SiBo.b/3MV1Kn^A_-R)_1A'/tS2M]Bmc@=]*WSF,3=UDJ=-">Co`BsLe=LJJNLb8(Zp+N4(l8d/uDW@%dUO2NKH>s8GBSul1MYX_Bgl:mr=WgBfIf&hHZo+UJ7[mk$m%KIF_sL=f!n`@)r@,qY0d%!'A5s\,(9$_d8J%$),X+!UG?#2^9NP4&%ulmf9(td&Yte<5prR"0_l?=/`"'i21e,Fl99^bCk\d3\k!B_6dqTYsbgp+aZ?j-5'&,\ec':3H*<XrI\k%p8R':FZ^"=GQ/H,]Ae@qsaZ'8L?4:tiZTjNPS_*1cH23NS)<1H:<hImr\:rs&cD4^o,2kETEK2B=19`66KHip4d\$-9B;&YDr]m$,ms-f]F#?-f=#NYD#K`&QD&KTr[:Z>sn;p=?Pr,gVQd(Cq\p4qm[^'Wb9p)Y.:au*T.M[]3#hee'>ju9VRJ%rP*rVcHT_oJgi3@pmA'>^.($)D(&.#o+<=o%-F_$9hic]\FRMKBT8&%Cf`lACUG(j-./h&c%WD7!U\6of&Jp+TEl\A3o3Yt1_NIM&^28L2FdeKWM"oKXO3:m;4f58I2!HIa<H1f5<ol64P)6:F`PBi[Psj]H&XnKWF<MF[^R(R0`3\q!HOW6I`nMqh*\c+YU4B6Has;80`4?,"(:VB4JpIhc&>^l65*jV&<6(%^cT$&*]D28.rYr$BE\HR?l*Io8p7(NHmN$3X&!C!nO=K\"52NX8*`WqG`RD9SZG>ISBGTM#k;X*2POL'XM*ea>+C[b-R_GJps#(m]UU^GU3th#OXbf@#pdp7@C7A+ebRJiPGl?,Q,6Sq0(Jn8tAkGci;AKPrmIQ==(!J3[AmkGn6!_Soji9/4Fk0a8f,_gV,KWpH'=T#.U[la;0qM'WARW.:kBD+LbA9=@u`XA`l?A-b)%E;uI3L^*g!&=KEXV64gd-n,!,04Kshpo!O*g<01JoZJl7;SI#TWgC_9VJ=SHQLA1]A>r=n2!SdMBo"\["*S4tXe1rAXe]AkrLTZ^]%"_YY@1:ni"$DS]RYeq:PkhP2$q14'g/3$=u6'X>utQ^@s`c=e@LoG^eI3I5:?Q_Dm8pb2h$Xe!6dDH6cf1("F1i]`?m+_9?X0=5ahW3h9S;[J"=9f<b@\d\CYKIXB^FZ9T2d.bEEDN_eGlu\o$\.5AIe'Ym<cg<E*0';"6^pemI2@cIXI'HcL!ld)aal7Z?aR7<*`X`Q!n39X`uLB8iS[WEp[fiO6MW,).@N%qjnN]fl/bLYRmdXAdY'JrQLHQ2?qMX.ZOJO:=2joV?b?/2G)+=uCpS*HP"6_e`eL,=X$[goD?qeu4#H;N#:6p@X6>HC=@MkN#Xsc;"mo(FP4ZQ3Dp"1/XmXs5-8g="]r9Mi+KjQ"h6ib$7\)l_s*qeZ1(L*`X/fbBB/*RLH?cEkJI69YDQ+fq+)'(,f:!;7k!o],-jJMJgp^AVfQZ6$6.'4V:V$Q.s$V5JP$&m#.3&iq:#X_4mW>MAEltqb*Sk<irEs"D0@ErX(ntA0!rqq\sX@?Qo~>endstream
+endobj
+xref
+0 30
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000545 00000 n 
+0000000734 00000 n 
+0000000958 00000 n 
+0000001182 00000 n 
+0000001445 00000 n 
+0000001694 00000 n 
+0000001933 00000 n 
+0000002204 00000 n 
+0000002474 00000 n 
+0000002751 00000 n 
+0000003024 00000 n 
+0000003273 00000 n 
+0000003483 00000 n 
+0000003728 00000 n 
+0000003973 00000 n 
+0000004218 00000 n 
+0000004408 00000 n 
+0000004657 00000 n 
+0000004906 00000 n 
+0000005156 00000 n 
+0000005406 00000 n 
+0000005771 00000 n 
+0000005841 00000 n 
+0000006139 00000 n 
+0000006200 00000 n 
+trailer
+<<
+/ID 
+[<fd5462358e7d8ef5eaadc8228b60c291><fd5462358e7d8ef5eaadc8228b60c291>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 27 0 R
+/Root 26 0 R
+/Size 30
+>>
+startxref
+8967
+%%EOF
