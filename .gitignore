@@ -218,3 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 .aws-sam/
 env.local.json
+env.local-before-create.json
+github-oidc-trust.local.json
+template-before-fix.yaml
